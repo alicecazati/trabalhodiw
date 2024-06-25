@@ -1,0 +1,37 @@
+{
+    "conteudo": [
+      {
+        "image": "images/images/image1.jpg"
+      },
+      {
+        "image": "images/images/image1.jpg"
+      },
+      {
+        "image": "images/images/image1.jpg"
+      },
+      {
+        "image": "images/images/image1.jpg"
+      },
+      {
+        "image": "images/images/image1.jpg"
+      }
+    ],
+    
+        "colegas": [
+          {
+            "image": "images/images/sofia.jfif",
+            "name": "Sofia Grossi",
+            "github": "https://github.com/sofia-0812"
+          },
+          {
+            "image": "images/images/paulinha.jfif",
+            "name": "Paula Nogueira",
+            "github": "https://github.com/PaulaNogueiraC"
+          },
+          {
+            "image": "images/images/filipe.jfif",
+            "name": "filipi Pereira",
+            "github": "https://github.com/filipiipereira"
+          }
+        ]
+}

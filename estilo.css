@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.caixa-menuprincipal{
+    float: right;
+    
+}
+.caixa-menuprincipal ul{
+    list-style-type: none;
+}
+.caixa-menuprincipal ul li{
+    display: inline-block;
+
+}
+.caixa-menuprincipal ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4px;
+    padding: 0px 30px 0px;
+    font-weight: 200;
+}
+.repositorio{
+    font-size: larger;
+}
+.descricao h1{
+    font-size: larger;
+    color: blue;
+}
+.data h2{
+    font-size: larger;
+    color: blue;
+}
+.linguagem h3{
+    font-size: larger;
+    color: blue;
+}
+.linguagem h4{
+    font-size: larger;
+    color: blue;
+}
+h5{
+    font-size: larger;
+    color: blue;
+    
+}
+img{
+    width: 30px;
+    
+}
+@media screen and (min-width:601px) and (max-width:1024px){
+
+    div{
+        font-size: 100%; 
+        
+    }
+    .nome{
+        background: blue;
+        height: 100px;
+        
+    }
+
+}
+
+.JS{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 250px;
+    padding: 10px 10px 10px;
+}
+.CSS{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 250px;
+    padding: 10px 10px 10px;
+}
+.HTML{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 250px;
+    padding: 10px 10px 10px;
+}

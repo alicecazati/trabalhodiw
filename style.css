@@ -1,0 +1,295 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MENU*/
+
+/* Estilo do título */
+h1 {
+    padding: 20px 10px 30px;
+    font-weight: 200;
+    font-size: 2em;
+    color: black;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 20px;
+    padding: 20px 10px 0px;
+    font-weight: 200;
+    color: black;
+}
+
+/* Estilo do contêiner principal */
+.container {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+/* Estilo da navegação */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Estilo do logotipo */
+.logo a {
+    background-color: #a39f9f; /* Fundo cinza escuro */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no logotipo */
+.logo a:hover {
+    background-color: #888;
+}
+
+/* Estilo da lista de navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Estilo dos itens da lista */
+nav ul li {
+    margin-left: 20px;
+}
+
+/* Estilo dos links da navegação */
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black; /* Cor do texto preto */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito de hover nos links */
+nav ul li a:hover {
+    background-color: #ccc; 
+    color: black; 
+}
+
+/* PERFIL */
+/* Título */
+h1.perfil-p {
+    font-size: xx-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px; 
+    margin-left: 20px; 
+}
+
+/* Linha de divisão */
+.linha {
+    height: 1px;
+    background-color: black;
+    margin-top: -40px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    width: calc(100% - 40px); 
+}
+.linha-perfil{
+    height: 1px;
+    background-color: black;
+    margin-top: -40px; 
+    margin-bottom: 40px; 
+    margin-left: 20px; 
+    width: calc(100% - 40px); 
+}
+/* Corpo do perfil */
+.caixa-post {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+
+h4, h5 {
+    display: inline-block;
+    font-size: medium;
+}
+
+h5 {
+    font-size: medium;
+}
+
+.bootstrap-icons {
+    font-size: 36px; /* Tamanho dos ícones */
+    
+}
+/*Carrousel*/
+#carouselExampleAutoplaying{
+    width: 60%;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+
+}
+.conteudos{
+    font-size: xx-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px; /* Ajusta a margem inferior para 10px */
+    margin-left: 20px; /* Adiciona margem à esquerda para alinhar com o conteúdo */
+}
+/*repositorio*/
+.repositorios{
+    font-size: xx-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 15px; 
+}
+
+.caixa-post {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.caixa-post img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 250px; 
+    height: 250px; 
+    margin-right: 20px; 
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    margin-top: -150px;
+}
+
+
+#repos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.icones i {
+    color: #ffc107;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+/*Colegas*/
+
+.Colegas-c p{
+    font-size: xx-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 40px; 
+    margin-left: 20px;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.box img {
+    width: 150px; 
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.box span {
+    display: block;
+    margin-top: 5px; 
+}
+/*Rodape*/
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color:white;
+    background-color: #666;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .linha, h1.perfil-p {
+        margin-left: 0;
+        width: 100%;
+    }
+    .caixa-post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .caixa-post img {
+        margin-bottom: 10px;
+    }
+
+    #repos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+}
