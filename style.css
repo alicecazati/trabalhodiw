@@ -259,37 +259,25 @@ footer {
     background-color: #666;
 }
 /* Responsividade */
+@media (max-width: 992px) {
+    .container {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-
-    nav ul li {
-        margin: 10px 0;
+    .Perfil, .repositorios, .conteudos, .Colegas-c {
+        padding: 10px;
     }
-
-    .linha, h1.perfil-p {
-        margin-left: 0;
-        width: 100%;
-    }
-    .caixa-post {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     .caixa-post img {
         margin-bottom: 10px;
     }
-
-    #repos {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .card {
-        width: 90%;
-        margin-bottom: 20px;
+        width: 100%;
     }
-
 }
+

@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('https://api.github.com/users/alicecazati/repos')
         .then(response => response.json())
         .then(repositories => {
+            console.log(repositories);
             const reposContainer = document.getElementById('repos');
             repositories.forEach(repo => {
                 const repoCard = document.createElement('div');

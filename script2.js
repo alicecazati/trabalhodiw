@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
     const username = 'alicecazati'; // Replace with your GitHub username
-    const url = `https://api.github.com/users/${username}/repos`;
+    const url = `https://api.github.com/repos/${username}/${name}`;
 
     fetch(url)
         .then(response => {
@@ -9,8 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             return response.json();
         })
-        .then(data => {
-            const repo = data[0]; // Assuming you want the first repository
+        .then(repo => {
 
             // Update HTML elements with repo data
             document.getElementById('repo-name').textContent = `Repositório: ${repo.name}`;
@@ -24,3 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Display error message on the webpage or handle it as appropriate
         });
 });
+
+ 
+
+ 
